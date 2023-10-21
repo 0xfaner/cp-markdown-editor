@@ -1,0 +1,32 @@
+@media all {
+    .page-break {
+        display: none;
+    }
+}
+
+@media print {
+
+    html,
+    body {
+        height: initial !important;
+        overflow: initial !important;
+    }
+
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
+
+@page {
+    size: auto;
+    margin: 10mm 20mm;
+}
+
+.print-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    height: 30px;
+    width: 80px;
+}
