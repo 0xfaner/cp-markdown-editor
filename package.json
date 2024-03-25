@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "highlight.js": "^11.9.0",
-    "katex": "^0.16.9",
+    "katex": "^0.16.10",
     "marked": "^9.1.2",
     "marked-highlight": "^2.0.6",
     "mathjax": "^3.2.2",
